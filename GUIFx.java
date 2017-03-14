@@ -51,7 +51,7 @@ public class GUIFx extends Application {
 		Iterator<CharSequence> iter = paragraph.iterator();
 		
 		File fileToSaveTo = new File(
-				System.getProperty("user.home") + "/Desktop/Text testing/" + fileSaveName + ".txt");
+				System.getProperty("user.home") + "/Desktop/journal/" + fileSaveName + ".txt");
 				
 		if (fileToSaveTo.exists()) {
 			readFile(fileToSaveTo);
@@ -198,7 +198,7 @@ public class GUIFx extends Application {
 		Iterator<CharSequence> iter = paragraph.iterator();
 		
 		File fileToSaveTo = new File(
-				System.getProperty("user.home") + "/Desktop/Text testing/" + fileSaveName + ".txt");
+				System.getProperty("user.home") + "/Desktop/journal/" + fileSaveName + ".txt");
 				
 		// if (fileToSaveTo.exists()) {
 		// appendToFile(fileToSaveTo, writingArea.getText());
